@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="36" tileheight="18">
+ <tileset firstgid="1" name="tiles" tilewidth="36" tileheight="18">
+  <image source="tiles.png" width="216" height="144"/>
+ </tileset>
+ <layer name="background" width="50" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6GzUf9GJ2MfSFg1VVVVVVVVVVVVVVVVVVVVVVVVVd8f+TfoWA==
+  </data>
+ </layer>
+ <layer name="layer1" width="50" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztmttKBEEMRAfxfndd8dEn//8X7XkYGJrRqcRU0qt1oBCEhT7DbneSnmkSQgghhBBCCCH+PmeGjMxVyzWQm6oFgjy0PAJ5qlogyGvLBZDLqgWC3LbcAbmvWiDIc8sLkEPLR9EaEd4N+dz4vGW/8yQLdL/zJgt0v/MmC3S/80Ye8jhlD/Qc9SYL9Bz1ZoF93ljOUU8WkHNq9Jp8BjmnRq/JZ9b7yfGbvJWtDkceY4GcU//Vo6KfYnhs9VNsEA92Txdx7iIezH4u6txFPJj9XNS5y66r99Lv8fP/PLOwao+teDzQ/mB0D7Q/GN0DrfNH90A4n76vvbz56bd+ah7rvxke0bOCve8Va3YfPSvY8ziQPKJnA3se6/nBqMy/tYq9Khp5jIU8tqm6a4v2qJp9RntUzT6jPapmbfLYpv981v0724M9l1nYq52ttW7vwZ7LLOzVztZat/ew9EC/+S1Z7so8HpY+aKR3lHoPSx/E6nM89M/Ye09azcjP2MLIz1gIISxU3G0yemz2+6pZ7xex31fNer9o3SdE3xkcp7w6dN0nMDyy6tB1vcLwyK5DGQ6Zc40FeciDgTzkwUAeOR6WGprhEVXfW+pohkdUjW+poxkeUTU+63uv+PIFo4VXOA==
+  </data>
+ </layer>
+ <layer name="platform" width="50" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKgDAMQNEeRL3/MbWIiyAOWtI270F3h3xNsRQAAAAAgD4sx9miHwJoQt+Qh94BgKruBGuxF0Amuof56Bpy0TzMS9+Myj+nb7TPSK55fTrm+KRr+Icdox3vKaLcd4kRZlAvROrpW+guAADvduxuBwc=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object x="0" y="1098" width="180" height="252"/>
+  <object x="144" y="1188" width="432" height="126"/>
+  <object x="0" y="1710" width="396" height="90"/>
+  <object x="288" y="1440" width="1152" height="108"/>
+  <object x="360" y="1548" width="828" height="252"/>
+  <object x="1152" y="1710" width="648" height="90"/>
+  <object x="72" y="612" width="360" height="306"/>
+  <object x="396" y="774" width="1044" height="234"/>
+  <object x="1080" y="1008" width="324" height="252"/>
+  <object x="360" y="342" width="396" height="126"/>
+  <object x="756" y="432" width="36" height="36"/>
+  <object x="828" y="738" width="36" height="36"/>
+  <object x="936" y="450" width="864" height="180"/>
+ </objectgroup>
+</map>

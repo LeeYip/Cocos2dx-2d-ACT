@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="36" tileheight="18">
+ <tileset firstgid="1" name="tiles" tilewidth="36" tileheight="18">
+  <image source="tiles.png" width="216" height="144"/>
+ </tileset>
+ <layer name="background" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6GzUf9GJ2MfSFg1VVVVVVVVVVVVVVVVVVVVVVVVVd8f+TfoWA==
+  </data>
+ </layer>
+ <layer name="layer1" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmUtvwyAQhK0q6SN9pm3UY075/3+x9i1B2AwLqwwwI80p8u6GzywY9tM07SN+nLa1W3kuN05KqTzW+Gj9LBYPLosHl8WDy+LB5d55HGa/Ghzmt8TIiT8Kj6/ZR4PD/JYYOfFH4fFndJjfGgeNPwqPWrXUzi8eZbWIh3igtYlHucSjrBbxEA+0NvEol3iU1SIe4oHW1hKPB9CpWsL8aNw1j8rjafYz4FQtYX4k5pbZeaTOYd+Mcd9nfwC+FsIDiblldh6pc9hvY9yf2b+Ar7WL/B7+PyTmltl5IGeiFll4xOZqOD975+ElC4/YXA3np3jYZOGBzM978UDvO63rrbcsPBDdiwd632ldb73VG4+cO0hGsfJorc/UEiuP1vpMLaE8zhkxz2DMLbfWZ2poGTeUxyUj7gWMWXM+9qBl3BAe1jNB8bhVrXGzngmKx63Qs9vU2FjPBJl5IPcKtYWe3Zb2eg97K/auvjjnRNdqRnsr9q5+OucUj3XFxuYEPJez7w+fE491WXnk7PvD50bkUbIfL73z9/4GaJEHuqeM7StL7/y9vwFa47H0aHRPGdtXlt75t7qX9eLReo9m9og9mtk560AvPZrZOetALz2a2VoHuCweXBYPLosHl8WDy/9orqSP
+  </data>
+ </layer>
+ <layer name="platform" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENACAIBEAGUfcfUxiBaKV3yXeUnycCAAAAAAAAgDIyM7MObwC6alvsCtzhn/My3QUAAAAAAAAAAPjDBlxYAe4=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object x="0" y="756" width="504" height="144"/>
+  <object x="504" y="684" width="1440" height="216"/>
+  <object x="0" y="0" width="252" height="540"/>
+  <object x="504" y="0" width="396" height="486"/>
+  <object x="1440" y="0" width="324" height="396"/>
+  <object x="1908" y="558" width="324" height="342"/>
+  <object x="2196" y="521.75" width="36" height="36"/>
+  <object x="2232" y="0" width="1368" height="144"/>
+  <object x="468" y="720" width="36" height="36"/>
+  <object x="864" y="594" width="216" height="108"/>
+  <object x="1872" y="648" width="36" height="36"/>
+  <object x="1368" y="648" width="36" height="36"/>
+  <object x="2592" y="504" width="36" height="36"/>
+  <object x="2988" y="504" width="36" height="36"/>
+  <object x="2232" y="306" width="360" height="594"/>
+  <object x="3024" y="306" width="576" height="594"/>
+  <object x="2592" y="540" width="432" height="360"/>
+  <object x="2700" y="144" width="216" height="288"/>
+ </objectgroup>
+</map>
